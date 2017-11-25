@@ -1,6 +1,6 @@
 
 const express = require('express');
-cons app = express();
+const app = express();
 
 app.get('/', (req, res) => {
   res.send({ message: 'Its work'});
